@@ -1,0 +1,11 @@
+{
+    "app-service-plan.json":  "name",
+    "network-interface-private.json":  "nicName",
+    "storage-account.json":  "storageAccountName",
+    "script-extension.json":  "vmname",
+    "network-interface-public.json":  "nicName",
+    "network-security-group.json":  "groupName",
+    "public-ipaddress.json":  "publicIPAddressName",
+    "virtual-network.json":  "virtualNetworkName",
+    "virtual-machine.json":  "vmname"
+}

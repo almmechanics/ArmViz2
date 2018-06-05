@@ -1,0 +1,11 @@
+{
+    "Microsoft.Resources/deployments":  "images/CnE_Enterprise/Script file.png",
+    "Microsoft.Network/virtualNetworks/subnets":  "images/CnE_Cloud/png/Azure Virtual Network.png",
+    "Microsoft.Compute/virtualMachines/extensions":  "images/CnE_Enterprise/Script file.png",
+    "Microsoft.Compute/virtualMachine":  "images/CnE_Cloud/png/Azure Virtual Machine.png",
+    "Microsoft.Network/publicIPAddresses":  "images/IPAddress.png",
+    "Microsoft.Network/networkInterfaces":  "images/CnE_Enterprise/Network card.png",
+    "Microsoft.Network/networkSecurityGroups":  "images/NSG.png",
+    "Microsoft.Storage/storageAccounts":  "images/CnE_Cloud/png/Azure Storage.png",
+    "Microsoft.Web/serverfarms":  "images/CnE_Cloud/PNG/Azure App Service.png"
+}

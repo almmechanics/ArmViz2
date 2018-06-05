@@ -1,0 +1,8 @@
+[
+    "scriptArguments",
+    "commandToExecute",
+    "sshPublicKey",
+    "run.csx",
+    "constants.csx",
+    "knife.rb"
+]
