@@ -5,23 +5,22 @@ function Invoke-ArmGraph
     param
     (
         [string]
-        $configFile,
+        $ConfigFile,
         [string]
-        $exclusionsFile,
+        $ExclusionsFile,
         [Parameter(Mandatory)]
         [ValidateNotNullOrEmpty()]
-        [ValidateScript({Test-Path $_})]
         [string]
-        $inputFile = 'C:\dev\vsts\armviz-data\mainTemplate20180604.json'
+        $Filename = 'C:\dev\vsts\armviz-data\mainTemplate20180604.json'
     )
 
     $VerbosePreference="Continue"
 
     # read config 
-    $configData = Read-Config -FileName $configFile
+    $configData = Read-Config -FileName $ConfigFile
     
     # read exclusions
-    $exclusions = Read-exclusions -filename $exclusionsFile 
+    $exclusions = Read-exclusions -Filename $ExclusionsFile
 
     # read params
     $paramNamelookup = Read-Params
@@ -29,7 +28,8 @@ function Invoke-ArmGraph
     # read params
     $images = Read-ImageLookup
 
-    $data = (Get-Content $inputFile -Raw) | ConvertFrom-Json 
+    #read data
+    $data = Read-DataAsJson -Filename $Filename
 
     $items = @{}
     $dependencies = @{}

@@ -1,4 +1,3 @@
 {
-    "dotfolder" : "C:/ProgramData/chocolatey/bin",
-    "images" : "C:/dev/vsts/armviz-data"
+    "dotfolder" : "C:/ProgramData/chocolatey/bin"
 }

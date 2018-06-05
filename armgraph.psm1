@@ -15,5 +15,8 @@ $internalPath = Join-Path $cmdletsPath 'internal'
 . (Join-Path $internalPath 'Add-GVSubCluster.ps1')
 . (Join-Path $internalPath 'Add-GVQuotedItem.ps1')
 . (Join-Path $internalPath 'Add-GVConnection.ps1')
+. (Join-Path $internalPath 'Read-DataAsJson.ps1')
 
 $configPath = Join-Path $PSScriptRoot 'config'
+
+$imagesPath = Join-Path $PSScriptRoot 'images'
